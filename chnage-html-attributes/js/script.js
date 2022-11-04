@@ -4,9 +4,14 @@ function changeBackground(element) {
     element.style.color = "skyblue";
     element.style.textAlign = "center";
     element.style.textShadow = "2px 10px red";
-    changeText(element);
+    nameText(element);
+}
+
+function nameText(element) {
+    element.style.textTransform = "uppercase";
+    element.style.fontSize ="30px";
 }
 
 function changeText(element) {
-    element.style.textTransform = "uppercase";
+    element.style.textAlign = "left";
 }
